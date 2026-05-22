@@ -1,6 +1,6 @@
 # Awesome-FDE
 
-![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Awesome](https://awesome.re/badge.svg)
 
 [![Stars](https://img.shields.io/github/stars/yourname/awesome-fde?style=social)](https://github.com/libaice/awesome-fde)
 
