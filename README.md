@@ -164,3 +164,176 @@ This region deserves serious attention. FDE-equivalent roles are growing rapidly
 - **Self-directed problem solving** — Nobody gives you a ticket; you figure out what the ticket should have been
 - **Fast learning under pressure** — You'll be onboarded to a new customer's stack in 48 hours and expected to have opinions
 - **Bias toward shipping** — A working solution in the customer's hands beats a perfect solution in your head
+
+
+
+## The FDE Interview
+
+This is the most important section of this list. 
+
+FDE interviews are unlike anything in standard SWE hiring, and most people fail not because of technical weakness but because they've never been trained for this format.
+
+### The Palantir-Style Problem
+
+Palantir invented a format now copied by almost every company hiring FDEs.
+
+You're given a **vague, real-world problem** — no data schema, no clear success metric, no defined scope. Examples:
+
+- *"A large hospital system wants to use AI to reduce medication errors. How do you approach this?"*
+
+- *"A hedge fund wants to use LLMs to improve their research process. Where do you start?"*
+
+- *"A logistics company's AI dispatch system has been live for 6 months and adoption is at 30%. What's happening and what do you do?"*
+
+  
+
+The interview is not testing whether you know the right answer. 
+
+
+
+It's testing:
+
+> 1. **How you decompose an ambiguous problem** — Do you ask good clarifying questions, or do you charge into assumptions?
+> 2. **How you design a solution** — Is your architecture reasonable, or are you over-engineering a toy?
+> 3. **How you think about rollout** — Do you understand change management, or only the technical layer?
+> 4. **How you measure success** — Can you define a metric that actually maps to the customer's business outcome?
+
+
+
+Spend as much time on diagnosis and framing as on the solution. Interviewers are specifically watching to see if you slow down.
+
+### 10 Common FDE Interview Questions
+
+1. Tell me about a time you delivered a technical solution to a non-technical customer. What made it succeed or fail?
+2. How would you diagnose why an AI agent is performing poorly in production?
+3. A customer says "the AI doesn't work." Walk me through your debugging process, step by step.
+4. How do you balance building a fully custom solution versus pushing the customer toward the standard product?
+5. You're on-site at a customer and discover their data quality is far worse than they described in the sales process. What do you do?
+6. How would you design a RAG system for a law firm's internal document library? What are the failure modes?
+7. A customer needs real-time market data feeding into their agent. What architecture would you use and why?
+8. How do you handle a customer who wants features that are on the product roadmap but not shipped yet?
+9. You shipped a solution last week. How do you actually know it's working?
+10. Walk me through how you'd write a post-deployment technical review. What does it contain, and who is it for?
+
+
+
+### How to Prepare
+
+- **Build and deploy at least one real agent** — Not a tutorial, not a Jupyter notebook. Something with a real user, real failure modes, and a feedback loop you can talk about. Bonus points if it has a customer (even an internal one).
+- **Be able to explain every architecture decision you made** — Not just what you built, but why you made each tradeoff. Why did you use streaming vs. batch? Why this chunk size? Interviewers will probe.
+- **Practice the "diagnosis under ambiguity" format** — Take a vague problem (pick one from above), set a 20-minute timer, and structure a response: clarifying questions → root cause hypotheses → proposed solution → success metric. Do this out loud.
+- **Have 3 customer/user stories ready** — Even if they're from open source projects, freelance clients, or internal stakeholders at a previous job. The story arc is: situation → what the customer actually needed (vs. what they asked for) → what you built → how you knew it worked.
+
+
+
+## Resources
+
+### Learning
+
+- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) — The go-to framework for building stateful, production-grade agents
+- [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Essential reading for building Claude-powered agentic workflows
+- [LangSmith / LLM Evaluation](https://docs.smith.langchain.com/) — Learn how to instrument and evaluate LLM applications in production
+- [Anthropic Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — Solid foundation for prompting at a production level
+
+###  Reading
+
+- *"[The Hottest Tech Role of 2026](https://medium.com/@apoorvdubey757/the-hottest-tech-role-of-2026-forward-deployed-engineer-3b072f600714)"* — Medium (Apoorv Dubey) — Good overview of how the FDE market has evolved
+- *"[How to Become a Forward Deployed Engineer in 2026](https://skillscouter.com/how-to-become-a-forward-deployed-engineer/)"* — SkillScouter — Practical career path breakdown
+- [Palantir's early engineering blog posts on the FDE model](https://fde.academy/blog/how-palantir-invented-the-forward-deployed-engineer-model) — dated but foundational for understanding the original philosophy
+
+### Job Boards
+
+- **[Wellfound](https://wellfound.com)** — Search "forward deployed engineer"; best coverage of startup FDE roles
+- **[LinkedIn](https://linkedin.com)** — Search "FDE" or "forward deployed engineer"; set alerts for new postings
+- **[Anthropic Careers](https://www.anthropic.com/careers)** — Direct application; FDE roles listed under "Deployment" or "Applied AI"
+- **[OpenAI Careers](https://openai.com/careers)** — Applied Engineering team
+- **[Scale AI Careers](https://scale.com/careers)** — Forward Deployed Engineer and Solutions roles
+
+
+
+## From Crypto/Blockchain to FDE
+
+If you're coming from crypto — whether you were building DeFi protocols, writing Solidity contracts, running trading infrastructure, or integrating exchange APIs 
+
+
+
+**You are a stronger FDE candidate than you probably realize.**
+
+The skills don't translate in obvious ways, but they translate deeply.
+
+
+
+**Why the crypto background actually fits:**
+
+* You've shipped production systems where failure has immediate, real-money consequences.
+
+* You haven't worked in "sandbox mode." 
+
+* You've debugged WebSocket feeds at 2am during a market event, integrated underdocumented third-party APIs, and built tools that had to survive adversarial conditions. 
+
+  
+
+**That's exactly the muscle FDE work demands** — except instead of a DeFi protocol going down, it's a customer's AI deployment failing in front of their CEO.
+
+*Crypto engineers also tend to be end-to-end builders.*
+
+You've touched the smart contract, the indexer, the API layer, and the frontend. 
+
+That breadth — even if you're not deep in every layer — is rare and valuable when a customer hands you an unfamiliar tech stack and expects you to have opinions within a week.
+
+Finally, you're used to operating without perfect documentation. You've read EIPs, traced contract bytecode, and figured out how an undocumented protocol actually works by reading the source. That instinct for self-directed, source-level understanding is a direct superpower in FDE work.
+
+
+
+### Skills Translation Table
+
+*The key is to translate your experience into language that enterprise AI teams understand.*
+
+| Crypto Background                      | FDE Translation                                              |
+| -------------------------------------- | ------------------------------------------------------------ |
+| Smart contract development             | Low-level system constraints & security mindset; <br />thinking about what can go wrong, not just what works |
+| Order book / matching engine work      | Real-time data pipelines; low-latency architecture; understanding of event ordering and consistency |
+| WebSocket feed integration             | Streaming data & event-driven architecture; you already know how to handle connection drops and reconnection logic |
+| On-chain monitoring & alerting tools   | Production observability; you've already built the equivalent of a customer's LLM output monitoring system |
+| Working with underdocumented protocols | Fast onboarding to new customer tech stacks; you're comfortable reading source code, not waiting for docs |
+| Solo builder / open source contributor | End-to-end ownership; you've shipped full systems, not just features inside someone else's codebase |
+| Cross-chain integrations               | Multi-system integration; every FDE deployment involves connecting heterogeneous systems that weren't designed to talk to each other |
+
+
+
+### The one gap to close:
+
+Most crypto engineers haven't had to explain their systems to non-technical stakeholders at a business level. 
+
+The translation work — from "here's how the mempool works" to "here's why your transaction confirmation time matters for your checkout flow" — is exactly the communication muscle FDE work requires. 
+Practice this deliberately. 
+
+Take a system you've built and explain it to someone with no technical background. 
+
+Then explain the business tradeoffs. 
+
+That's the skill to develop.
+
+
+
+## Contributing
+
+Contributions are welcome and encouraged. If you:
+
+- Know of a company running an FDE program that isn't listed here
+- Have real interview questions to add (especially from non-US companies)
+- Want to add resources in languages other than English
+- Have a "crypto → FDE" story to share
+
+Please open a PR or file an issue. 
+
+**The goal is for this list to be maintained by people who are actually in or moving toward this role — not scraped from job boards.**
+
+For additions, please follow the existing format and include a brief note on why the resource is valuable.
+
+------
+
+## License
+
+[MIT](LICENSE) © awesome-fde contributors
+
