@@ -2,7 +2,7 @@
 
 ![Awesome](https://awesome.re/badge.svg)
 
-[![Stars](https://img.shields.io/github/stars/yourname/awesome-fde?style=social)](https://github.com/libaice/awesome-fde)
+[![Stars](https://img.shields.io/github/stars/libaice/awesome-fde?style=social)](https://github.com/libaice/awesome-fde)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 
