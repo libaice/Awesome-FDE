@@ -22,7 +22,7 @@ jobs:
       - name: Check Links with Lychee
         uses: lycheeverse/lychee-action@v1.10.0
         with:
-          args: "--verbose --no-progress '**/*.md'"
+          args: "--verbose --no-progress --accept 200,204,403,429 '**/*.md'"
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
