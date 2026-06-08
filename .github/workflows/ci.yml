@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 1' # Run weekly to catch dead links over time
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Check Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Links with Lychee
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          args: "--verbose --no-progress '**/*.md'"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

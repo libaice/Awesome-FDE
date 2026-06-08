@@ -8,7 +8,7 @@
 
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#contributing)
 
-
+[English](README.md) | [简体中文](README_CN.md)
 
 > A curated list of resources, companies, skills, and interview preparation materials for 
 >
@@ -50,7 +50,7 @@ FDE is becoming one of the most important roles in the AI era: part software eng
 
 
 
-## What-is-a-forward-deployed-engineer
+## What is a Forward Deployed Engineer?
 
 A **Forward Deployed Engineer (FDE)** is an engineer who works close to customers, often inside or alongside customer teams, to build, integrate, deploy, and iterate on technical solutions in real-world environments. 
 
@@ -158,7 +158,7 @@ This region deserves serious attention. FDE-equivalent roles are growing rapidly
 - **Stakeholder management** — work with end users, engineering teams, security, compliance, legal, managers, and executives.
 - **Technical writing and documentation** — write deployment docs, post-deployment reviews, architecture notes, and customer-facing explanations.
 
-###  Mindset
+### Mindset
 
 - **Comfort with ambiguity** — The brief will be incomplete. The data will be messy. You go anyway.
 - **Self-directed problem solving** — Nobody gives you a ticket; you figure out what the ticket should have been
@@ -235,7 +235,7 @@ Spend as much time on diagnosis and framing as on the solution. Interviewers are
 - [LangSmith / LLM Evaluation](https://docs.smith.langchain.com/) — Learn how to instrument and evaluate LLM applications in production
 - [Anthropic Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — Solid foundation for prompting at a production level
 
-###  Reading
+### Reading
 
 - *"[The Hottest Tech Role of 2026](https://medium.com/@apoorvdubey757/the-hottest-tech-role-of-2026-forward-deployed-engineer-3b072f600714)"* — Medium (Apoorv Dubey) — Good overview of how the FDE market has evolved
 - *"[How to Become a Forward Deployed Engineer in 2026](https://skillscouter.com/how-to-become-a-forward-deployed-engineer/)"* — SkillScouter — Practical career path breakdown

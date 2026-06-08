@@ -8,6 +8,8 @@
 
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#贡献指南)
 
+[English](README.md) | [简体中文](README_CN.md)
+
 > 精心整理的**前沿部署工程师 (Forward Deployed Engineer, FDE)** 资源、公司、技能和面试准备材料合集。
 
 本仓库旨在帮助那些希望了解或转型为前沿部署工程师（FDE）的工程师们 —— 特别是来自加密货币、区块链、金融科技、基础设施或后端工程背景的开发者。
