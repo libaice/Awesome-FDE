@@ -197,6 +197,7 @@ Palantir 首创的面试形式，现在几乎被所有招聘 FDE 的公司所借
 - “[2026年最热门的技术岗位](https://medium.com/@apoorvdubey757/the-hottest-tech-role-of-2026-forward-deployed-engineer-3b072f600714)” —— Medium (Apoorv Dubey) —— 关于 FDE 市场如何演变的优质综述
 - “[如何在2026年成为前沿部署工程师](https://skillscouter.com/how-to-become-a-forward-deployed-engineer/)” —— SkillScouter —— 实用的职业路径拆解
 - [Palantir 关于 FDE 模式的早期工程博客文章](https://fde.academy/blog/how-palantir-invented-the-forward-deployed-engineer-model) —— 虽有些年头，但对于理解其最初的哲学非常基础且关键
+- **[《FDE 的来路》](https://github.com/JanusChoi/where-fde-came-from)** —— 免费开源中文电子书，从 ERP、BI、数据中台到 AI Agent，沿企业数字化三十年的演进解释 FDE 为什么会在今天出现
 
 ### 求职渠道
 
