@@ -234,6 +234,7 @@ Spend as much time on diagnosis and framing as on the solution. Interviewers are
 - [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Essential reading for building Claude-powered agentic workflows
 - [LangSmith / LLM Evaluation](https://docs.smith.langchain.com/) — Learn how to instrument and evaluate LLM applications in production
 - [Anthropic Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — Solid foundation for prompting at a production level
+- [AI Engineer Notebooks](https://github.com/calmrocks/ai-engineer-notebooks) — Framework-free, hands-on notebooks on the applied-LLM delivery stack an FDE owns: RAG, evals-as-the-spine, agents from scratch (tool design, guardrails, MCP), fine-tuning vs LoRA, prompt-injection/security, and LLMOps — runnable on the free Groq API
 
 ### Reading
 
