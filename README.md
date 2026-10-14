@@ -248,6 +248,7 @@ Spend as much time on diagnosis and framing as on the solution. Interviewers are
 - **[Anthropic Careers](https://www.anthropic.com/careers)** — Direct application; FDE roles listed under "Deployment" or "Applied AI"
 - **[OpenAI Careers](https://openai.com/careers)** — Applied Engineering team
 - **[Scale AI Careers](https://scale.com/careers)** — Forward Deployed Engineer and Solutions roles
+- **[FDE Times job tracker](https://fdetimes.net/en/jobs/)** — Open FDE roles pulled from the public career boards of ~50 companies, refreshed every two hours, with the posted pay ranges summarised on a [salary page](https://fdetimes.net/en/fde-salary/); also in Vietnamese
 
 
 
