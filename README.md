@@ -240,6 +240,8 @@ Spend as much time on diagnosis and framing as on the solution. Interviewers are
 - *"[The Hottest Tech Role of 2026](https://medium.com/@apoorvdubey757/the-hottest-tech-role-of-2026-forward-deployed-engineer-3b072f600714)"* — Medium (Apoorv Dubey) — Good overview of how the FDE market has evolved
 - *"[How to Become a Forward Deployed Engineer in 2026](https://skillscouter.com/how-to-become-a-forward-deployed-engineer/)"* — SkillScouter — Practical career path breakdown
 - [Palantir's early engineering blog posts on the FDE model](https://fde.academy/blog/how-palantir-invented-the-forward-deployed-engineer-model) — dated but foundational for understanding the original philosophy
+- *"[FDE interview field guide](https://fdedispatch.com/fde-interview-loop-field-guide/)"* — FDE Dispatch — The round types particular to FDE loops (customer problem decomposition, messy debugging, constrained system design, work trials, deployment retrospectives, stakeholder role-play) and what each one tests that a standard SWE loop does not.
+- *"[FDE interview practice questions](https://fdedispatch.com/fde-interview-practice-questions/)"* — FDE Dispatch — Twelve original practice prompts, two for each FDE-specific round type, for rehearsing the diagnosis-under-ambiguity format described in "How to Prepare".
 
 ### Job Boards
 
