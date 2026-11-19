@@ -234,6 +234,7 @@ Spend as much time on diagnosis and framing as on the solution. Interviewers are
 - [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Essential reading for building Claude-powered agentic workflows
 - [LangSmith / LLM Evaluation](https://docs.smith.langchain.com/) — Learn how to instrument and evaluate LLM applications in production
 - [Anthropic Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — Solid foundation for prompting at a production level
+- [FDE Decomposition Interview Guide](https://github.com/pingananth/fde-decomp-interview-guide) - Free, MIT-licensed rubric, framework and sample questions for the "diagnosis under ambiguity" round, so you can check your answers against weak, adequate and strong examples
 
 ### Reading
 
